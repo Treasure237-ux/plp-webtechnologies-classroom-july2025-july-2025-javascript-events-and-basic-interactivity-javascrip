@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f9;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  background: #6200ea;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #6200ea;
+  color: white;
+}
+
+button:hover {
+  background: #3700b3;
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #121212;
+  color: #f4f4f9;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Interactive Page</h1>
+    <nav>
+      <button id="toggle-theme">Toggle Dark Mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Interactive Section 1 -->
+    <section id="counter-section">
+      <h2>Click Counter</h2>
+      <p>Button clicks: <span id="counter">0</span></p>
+      <button id="count-btn">Click Me!</button>
+    </section>
+
+    <!-- Interactive Section 2 -->
+    <section id="color-changer">
+      <h2>Background Color Changer</h2>
+      <button id="change-color">Change Background</button>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form-section">
+      <h2>Sign Up Form</h2>
+      <form id="signup-form" novalidate>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter username">
+        <small class="error" id="username-error"></small>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter email">
+        <small class="error" id="email-error"></small>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password">
+        <small class="error" id="password-error"></small>
+        <br><br>
+
+        <button type="submit">Register</button>
+      </form>
+      <p id="form-success" class="success"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
